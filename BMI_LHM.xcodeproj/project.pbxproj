@@ -13,6 +13,8 @@
 		48F066722CDCA2FD00F2D113 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48F066712CDCA2FD00F2D113 /* Base */; };
 		48F066742CDCA30000F2D113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F066732CDCA30000F2D113 /* Assets.xcassets */; };
 		48F066772CDCA30000F2D113 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48F066762CDCA30000F2D113 /* Base */; };
+		48F0667F2CE5E03400F2D113 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0667E2CE5E03400F2D113 /* VideoViewController.swift */; };
+		48F066812CE5E2BB00F2D113 /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48F066802CE5E2BB00F2D113 /* videoplayback.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		48F066732CDCA30000F2D113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F066762CDCA30000F2D113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F066782CDCA30000F2D113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F0667E2CE5E03400F2D113 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		48F066802CE5E2BB00F2D113 /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoplayback.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				48F0666A2CDCA2FD00F2D113 /* AppDelegate.swift */,
 				48F0666C2CDCA2FD00F2D113 /* SceneDelegate.swift */,
 				48F0666E2CDCA2FD00F2D113 /* ViewController.swift */,
+				48F0667E2CE5E03400F2D113 /* VideoViewController.swift */,
+				48F066802CE5E2BB00F2D113 /* videoplayback.mp4 */,
 				48F066702CDCA2FD00F2D113 /* Main.storyboard */,
 				48F066732CDCA30000F2D113 /* Assets.xcassets */,
 				48F066752CDCA30000F2D113 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				48F066742CDCA30000F2D113 /* Assets.xcassets in Resources */,
 				48F066772CDCA30000F2D113 /* Base in Resources */,
+				48F066812CE5E2BB00F2D113 /* videoplayback.mp4 in Resources */,
 				48F066722CDCA2FD00F2D113 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				48F0666F2CDCA2FD00F2D113 /* ViewController.swift in Sources */,
 				48F0666B2CDCA2FD00F2D113 /* AppDelegate.swift in Sources */,
+				48F0667F2CE5E03400F2D113 /* VideoViewController.swift in Sources */,
 				48F0666D2CDCA2FD00F2D113 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
