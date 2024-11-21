@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		489A1D812CEF167A009D898A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A1D802CEF167A009D898A /* WebViewController.swift */; };
 		48F0666B2CDCA2FD00F2D113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0666A2CDCA2FD00F2D113 /* AppDelegate.swift */; };
 		48F0666D2CDCA2FD00F2D113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0666C2CDCA2FD00F2D113 /* SceneDelegate.swift */; };
 		48F0666F2CDCA2FD00F2D113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0666E2CDCA2FD00F2D113 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		489A1D802CEF167A009D898A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		48F066672CDCA2FD00F2D113 /* BMI_LHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI_LHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F0666A2CDCA2FD00F2D113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F0666C2CDCA2FD00F2D113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				48F0666C2CDCA2FD00F2D113 /* SceneDelegate.swift */,
 				48F0666E2CDCA2FD00F2D113 /* ViewController.swift */,
 				48F0667E2CE5E03400F2D113 /* VideoViewController.swift */,
+				489A1D802CEF167A009D898A /* WebViewController.swift */,
 				48F066802CE5E2BB00F2D113 /* bmi.mp4 */,
 				48F066702CDCA2FD00F2D113 /* Main.storyboard */,
 				48F066732CDCA30000F2D113 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				48F0666F2CDCA2FD00F2D113 /* ViewController.swift in Sources */,
 				48F0666B2CDCA2FD00F2D113 /* AppDelegate.swift in Sources */,
 				48F0667F2CE5E03400F2D113 /* VideoViewController.swift in Sources */,
+				489A1D812CEF167A009D898A /* WebViewController.swift in Sources */,
 				48F0666D2CDCA2FD00F2D113 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
