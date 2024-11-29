@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		489A1D802CEF167A009D898A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		48F066672CDCA2FD00F2D113 /* BMI_LHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI_LHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F066672CDCA2FD00F2D113 /* BMI07_LHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI07_LHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F0666A2CDCA2FD00F2D113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F0666C2CDCA2FD00F2D113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		48F0666E2CDCA2FD00F2D113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		48F0665E2CDCA2FD00F2D113 = {
 			isa = PBXGroup;
 			children = (
-				48F066692CDCA2FD00F2D113 /* BMI_LHM */,
+				48F066692CDCA2FD00F2D113 /* BMI07_LHM */,
 				48F066682CDCA2FD00F2D113 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		48F066682CDCA2FD00F2D113 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48F066672CDCA2FD00F2D113 /* BMI_LHM.app */,
+				48F066672CDCA2FD00F2D113 /* BMI07_LHM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48F066692CDCA2FD00F2D113 /* BMI_LHM */ = {
+		48F066692CDCA2FD00F2D113 /* BMI07_LHM */ = {
 			isa = PBXGroup;
 			children = (
 				48F0666A2CDCA2FD00F2D113 /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				48F066752CDCA30000F2D113 /* LaunchScreen.storyboard */,
 				48F066782CDCA30000F2D113 /* Info.plist */,
 			);
-			path = BMI_LHM;
+			path = BMI07_LHM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48F066662CDCA2FD00F2D113 /* BMI_LHM */ = {
+		48F066662CDCA2FD00F2D113 /* BMI07_LHM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48F0667B2CDCA30000F2D113 /* Build configuration list for PBXNativeTarget "BMI_LHM" */;
+			buildConfigurationList = 48F0667B2CDCA30000F2D113 /* Build configuration list for PBXNativeTarget "BMI07_LHM" */;
 			buildPhases = (
 				48F066632CDCA2FD00F2D113 /* Sources */,
 				48F066642CDCA2FD00F2D113 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = BMI_LHM;
+			name = BMI07_LHM;
 			productName = BMI_LHM;
-			productReference = 48F066672CDCA2FD00F2D113 /* BMI_LHM.app */;
+			productReference = 48F066672CDCA2FD00F2D113 /* BMI07_LHM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48F066622CDCA2FD00F2D113 /* Build configuration list for PBXProject "BMI_LHM" */;
+			buildConfigurationList = 48F066622CDCA2FD00F2D113 /* Build configuration list for PBXProject "BMI07_LHM" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48F066662CDCA2FD00F2D113 /* BMI_LHM */,
+				48F066662CDCA2FD00F2D113 /* BMI07_LHM */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BMI_LHM/Info.plist;
+				INFOPLIST_FILE = BMI07_LHM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BMI_LHM/Info.plist;
+				INFOPLIST_FILE = BMI07_LHM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48F066622CDCA2FD00F2D113 /* Build configuration list for PBXProject "BMI_LHM" */ = {
+		48F066622CDCA2FD00F2D113 /* Build configuration list for PBXProject "BMI07_LHM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48F066792CDCA30000F2D113 /* Debug */,
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48F0667B2CDCA30000F2D113 /* Build configuration list for PBXNativeTarget "BMI_LHM" */ = {
+		48F0667B2CDCA30000F2D113 /* Build configuration list for PBXNativeTarget "BMI07_LHM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48F0667C2CDCA30000F2D113 /* Debug */,
