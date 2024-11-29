@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vsk-Wc-wwi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vsk-Wc-wwi">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -116,13 +116,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grr-Fm-BpM">
-                                <rect key="frame" x="83" y="251" width="226" height="350"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grr-Fm-BpM">
+                                <rect key="frame" x="110" y="349" width="174" height="148"/>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="0.0" maxY="10"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="bmi">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="bmi"/>
                                 <connections>
                                     <action selector="playVideo:" destination="ktD-ct-e2c" eventType="touchUpInside" id="wOh-3E-prr"/>
                                 </connections>
@@ -130,6 +128,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wZm-73-NW4"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="Grr-Fm-BpM" firstAttribute="centerX" secondItem="UO2-YD-Wru" secondAttribute="centerX" id="glA-sV-CcV"/>
+                            <constraint firstItem="Grr-Fm-BpM" firstAttribute="centerY" secondItem="UO2-YD-Wru" secondAttribute="centerY" id="qa9-lf-ouC"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Video" image="video.fill" catalog="system" id="vGY-Qr-9FN"/>
                 </viewController>
@@ -202,7 +204,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bmi" width="512" height="512"/>
+        <image name="bmi" width="1024" height="1024"/>
         <image name="network" catalog="system" width="128" height="123"/>
         <image name="person.fill.questionmark" catalog="system" width="128" height="102"/>
         <image name="video.fill" catalog="system" width="128" height="81"/>
